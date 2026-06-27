@@ -15,3 +15,8 @@ This file is like an "info card" for the project. It lists:
 - The project name and version
 - Which packages (tools) the project needs to run
 - Custom shortcut commands (called "scripts")
+
+This reads `package.json` and downloads everything the project needs:
+```bash
+npm install
+```
