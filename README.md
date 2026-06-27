@@ -53,7 +53,7 @@ git push
 3. If pre-commit makes any changes to your files run `git add .` again before committing; otherwise those fixes won't be included
 4. Never push directly to main; always work on a branch and open a Pull Request
 
-##FindPromo Porject:
+## FindPromo Porject:
 
 ## 🚀 Getting Started (for anyone who clones this repo)
 
@@ -76,10 +76,9 @@ npm install
 ```
 
 ### 5. Set up environment variables
-Create a file called `.env` in the root folder (this file is intentionally not included in the repo for security). It should contain:
+Create a file called `.env` in the root folder (this file is intentionally not included in the repo for security). It should contain: PORT=3000 and DATABASE_URL=your_postgres_connection_string_here
 
-PORT=3000
-DATABASE_URL=your_postgres_connection_string_here
+
 
 ### 6. Run the server
 ```bash
