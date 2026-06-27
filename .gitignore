@@ -57,3 +57,4 @@ htmlcov/
 *.tmp
 *.zip
 *.tar.gz
+node_modules
