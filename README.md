@@ -76,7 +76,8 @@ npm install
 ```
 
 ### 5. Set up environment variables
-Create a file called `.env` in the root folder (this file is intentionally not included in the repo for security). It should contain: PORT=3000 and DATABASE_URL=your_postgres_connection_string_here
+Create a file called `.env` in the root folder (this file is intentionally not included in the repo for security). It should contain: PORT=3000 and DATABASE_URL=postgresql://postgres:YOUR_PASSWORD@localhost:5432/influencer_finder
+### make sure you replace your password with your PostgreSQL password
 
 
 
