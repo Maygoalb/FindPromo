@@ -60,5 +60,3 @@ app.listen(PORT, () => { ... });
 | `package.json` | A list of which packages your project uses |
 
 You now understand the full round trip: **browser asks → server answers → browser shows it**. Everything we build next (database, AI) just adds more steps *inside* that same loop.
-
-Ready to move to the database connection?
