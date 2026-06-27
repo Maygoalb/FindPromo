@@ -1,10 +1,10 @@
 ---
 ## 💭 First Step:
 run these two commands
-```bash 
+```bash
 pip install -r requirements.txt
-``` 
-```bash 
+```
+```bash
 pre-commit install -f
 ```
 
@@ -53,4 +53,38 @@ git push
 3. If pre-commit makes any changes to your files run `git add .` again before committing; otherwise those fixes won't be included
 4. Never push directly to main; always work on a branch and open a Pull Request
 
-    
+##FindPromo Porject:
+
+## 🚀 Getting Started (for anyone who clones this repo)
+
+### 1. Install Node.js
+Download and install from https://nodejs.org/ (choose the LTS version)
+
+### 2. Install PostgreSQL
+Download and install from https://www.postgresql.org/download/
+
+### 3. Clone this repo
+```bash
+git clone
+cd
+```
+
+### 4. Install all required packages
+This reads `package.json` and downloads everything the project needs:
+```bash
+npm install
+```
+
+### 5. Set up environment variables
+Create a file called `.env` in the root folder (this file is intentionally not included in the repo for security). It should contain:
+
+PORT=3000
+DATABASE_URL=your_postgres_connection_string_here
+
+### 6. Run the server
+```bash
+node server.js
+```
+
+### 7. Open in browser
+Visit: http://localhost:3000
